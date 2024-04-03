@@ -1,4 +1,4 @@
-# php_basic_interview_preperation
+# Basic PHP conceptual/ interview preparation
 Basic PHP interview questions with an explanation
 
 ### Table of Contents
