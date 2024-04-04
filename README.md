@@ -66,6 +66,20 @@ Basic PHP interview questions with an explanation
   | basic php  | [How can you check if a file exists in PHP ?](#basicphp60) |
   | basic php  | [What is the purpose of the array_push() function in PHP ?](#basicphp61) |
   | basic php  | [What is the purpose of the array_merge() function in PHP ?](#basicphp62) |
+  | basic php  | [What is the purpose of the substr() function in PHP ?](#basicphp63) |
+  | basic php  | [What is the purpose of the array_search() function in PHP ?](#basicphp64) |
+  | basic php  | [What is the purpose of the array_keys() function in PHP ?](#basicphp65) |
+  | basic php  | [What is the purpose of the array_unique() function in PHP ?](#basicphp66) |
+  | basic php  | [What is the purpose of the array_reverse() function in PHP?](#basicphp67) |
+  | basic php  | [What is the purpose of the is_numeric() function in PHP ?](#basicphp68) |
+  | basic php  | [Which of the following best describes PHP ?](#basicphp69) |
+  | basic php  | [PHP is a server-side ______ language.](#basicphp70) |
+  | basic php  | [PHP can be embedded within HTML code.](#basicphp71) |
+  | basic php  | [PHP is a client - side scripting language.](#basicphp72) |
+  | basic php  | [Which of the following are advantages of using PHP?](#basicphp73) |
+  | basic php  | [You want to embed PHP code within your HTML.How would you do this ?](#basicphp74) |
+  | basic php  | [Which of the following is necessary to run PHP scripts on your local machine ?](#basicphp75) |
+  | basic php  | [The PHP files should be saved with a ______ extension for the server to parse them.](#basicphp76) |
   
   
   
