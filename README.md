@@ -54,5 +54,9 @@ Basic PHP interview questions with an explanation
   | basic php  | [How can we determine whether a variable is set ?](#basicphp48) |
   | basic php  | [What is the difference between the functions strstr() and stristr()?](#basicphp49) |
   | basic php  | [What is the difference between for and foreach ?](#basicphp50) |
+  | basic php  | [What is the difference between ereg_replace() and eregi_replace()?](#basicphp51) |
+  | basic php  | [What are the three classes of errors that can occur in PHP?](#basicphp52) |
+  | basic php  | [What is the difference between characters \ and \x ?](#basicphp53) |
+  | basic php  | [How can we pass a variable through navigation between pages?](#basicphp54) |
   
   
