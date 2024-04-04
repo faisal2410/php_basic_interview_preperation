@@ -58,5 +58,15 @@ Basic PHP interview questions with an explanation
   | basic php  | [What are the three classes of errors that can occur in PHP?](#basicphp52) |
   | basic php  | [What is the difference between characters \ and \x ?](#basicphp53) |
   | basic php  | [How can we pass a variable through navigation between pages?](#basicphp54) |
+  | basic php  | [Is it possible to extend the execution time of a PHP script ?](#basicphp55) |
+  | basic php  | [What is the purpose of the unset() function in PHP ?](#basicphp56) |
+  | basic php  | [What is the purpose of the json_encode() function in PHP ?](#basicphp57) |
+  | basic php  | [What is the purpose of the require_once() function in PHP ?](#basicphp58) |
+  | basic php  | [What is the purpose of the strlen() function in PHP ?](#basicphp59) |
+  | basic php  | [How can you check if a file exists in PHP ?](#basicphp60) |
+  | basic php  | [What is the purpose of the array_push() function in PHP ?](#basicphp61) |
+  | basic php  | [What is the purpose of the array_merge() function in PHP ?](#basicphp62) |
+  
+  
   
   
