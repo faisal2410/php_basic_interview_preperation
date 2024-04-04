@@ -80,6 +80,15 @@ Basic PHP interview questions with an explanation
   | basic php  | [You want to embed PHP code within your HTML.How would you do this ?](#basicphp74) |
   | basic php  | [Which of the following is necessary to run PHP scripts on your local machine ?](#basicphp75) |
   | basic php  | [The PHP files should be saved with a ______ extension for the server to parse them.](#basicphp76) |
+  | basic php  | [PHP requires a web server to run PHP scripts.](#basicphp77) |
+  | basic php  | [Comments in PHP can be used to leave notes in the code for other developers.](#basicphp78) |
+  | basic php  | [The PHP interpreter executes comments as part of the script.](#basicphp79) |
+  | basic php  | [Which of the following are reasons to use comments in PHP code ?](#basicphp80) |
+  | basic php  | [Which of the following are valid ways to add comments to PHP code ?](#basicphp81) |
+  | basic php  | [Which of the following are true about comments in PHP ?](#basicphp82) |
+  | basic php  | [Which of the following are reasons to use comments in PHP code ?](#basicphp83) |
+  | basic php  | [Which of the following are valid ways to add comments to PHP code ?](#basicphp84) |
+  | basic php  | [Which of the following are true about comments in PHP?](#basicphp85) |
   
   
   
