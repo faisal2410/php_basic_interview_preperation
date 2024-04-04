@@ -89,6 +89,29 @@ Basic PHP interview questions with an explanation
   | basic php  | [Which of the following are reasons to use comments in PHP code ?](#basicphp83) |
   | basic php  | [Which of the following are valid ways to add comments to PHP code ?](#basicphp84) |
   | basic php  | [Which of the following are true about comments in PHP?](#basicphp85) |
+  | basic php  | [How do PHP statements end ?](#basicphp86) |
+  | basic php  | [How are comments in PHP denoted ?](#basicphp87) |
+  | basic php  | [PHP code is enclosed in ______ and ______ tags.](#basicphp88) |
+  | basic php  | [In PHP, a line of code is terminated with a ______.](#basicphp89) |
+  | basic php  | [PHP allows for both single - line and multi - line comments.](#basicphp90) |
+  | basic php  | [Which of the following are valid ways to denote a comment in PHP ?](#basicphp91) |
+  | basic php  | [You want to include a note in your PHP code for other developers, but you don't want this note to affect the execution of the script. How would you do this?](#basicphp92) |
+  | basic php  | [How is a single - line comment denoted in PHP ?](#basicphp93) |
+  | basic php  | [How is a multi - line comment denoted in PHP ?](#basicphp94) |
+  | basic php  | [Which of the following is not a valid way to denote a comment in PHP ?](#basicphp95) |
+  | basic php  | [To make a single-line comment in PHP, you can use ______ or ______ at the beginning of the line.](#basicphp96) |
+  | basic php  | [Multi - line comments in PHP start with ______ and end with ______.](#basicphp97) |
+  | basic php  | [Comments in PHP code are ignored by the ______.](#basicphp98) |
+  | basic php  | [Which of the following is used in PHP to output one or more strings ?](#basicphp99) |
+  | basic php  | [What is the key difference between echo and print in PHP ?](#basicphp100) |
+  | basic php  | [Which of the following statements in PHP can output strings, variables, and HTML code ?](#basicphp101) |
+  | basic php  | [In PHP, the ______ statement can output one or more strings.](#basicphp102) |
+  | basic php  | [The ______ statement in PHP is not actually a function, so you can use it without parentheses.](#basicphp103) |
+  | basic php  | [The print statement in PHP always returns ______.](#basicphp104) |
+  | basic php  | [In PHP, both echo and print can output strings, variables, and HTML code.](#basicphp105) |
+  | basic php  | [The print statement in PHP can output multiple parameters at once.](#basicphp106) |
+  | basic php  | [echo and print are functions in PHP.](#basicphp107) |
+  | basic php  | [Which of the following are true about the echo statement in PHP?](#basicphp108) |
   
   
   
