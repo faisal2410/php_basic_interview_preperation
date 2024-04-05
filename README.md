@@ -240,6 +240,20 @@ Basic PHP interview questions with an explanation
   | basic php  | [In PHP, if the condition in a while loop is never false, the loop will ______.](#basicphp234) |
   | basic php  | [A PHP while loop will always execute its block of code ______.](#basicphp235) |
   | basic php  | [Which of the following are true about the while loop in PHP?](#basicphp236) |
+  | basic php  | [What can be the potential issues with a while loop in PHP?](#basicphp237) |
+  | basic php  | [Which of the following are common uses of while loops in PHP?](#basicphp238) |
+  | basic php  | [You are writing a PHP script and you want to execute a block of code as long as a certain condition is true. How would you do this using a while loop?](#basicphp239) |
+  | basic php  | [You have a while loop in your PHP script that is not terminating as expected. What could be the possible reasons and how would you debug this?](#basicphp240) |
+  | basic php  | [You need to execute a block of code in your PHP script for an unknown number of times, but at least once. How would you do this using a while loop and why might you choose it over a for loop?](#basicphp241) |
+  | basic php  | [What is the do...while loop used for in PHP?](#basicphp242) |
+  | basic php  | [In a PHP do...while loop, where is the condition tested?](#basicphp243) |
+  | basic php  | [How many times will the block of code in a PHP do...while loop execute at a minimum?](#basicphp244) |
+  | basic php  | [The do...while loop in PHP will execute a block of code once, and then continue executing it as long as the ______ is true.](#basicphp245) |
+  | basic php  | [In a PHP do...while loop, the condition is tested ______ the code block is executed.](#basicphp246) |
+  | basic php  | [A PHP do...while loop will always execute its block of code at least ______ times.](#basicphp247) |
+  | basic php  | [When is the elseif statement used in PHP?](#basicphp248) |
+  | basic php  | [The do...while loop in PHP tests the condition before executing the block of code.](#basicphp249) |
+  | basic php  | [In a PHP do...while loop, if the condition is never true, the loop will still execute once.](#basicphp250) |
   
   
   
