@@ -254,6 +254,16 @@ Basic PHP interview questions with an explanation
   | basic php  | [When is the elseif statement used in PHP?](#basicphp248) |
   | basic php  | [The do...while loop in PHP tests the condition before executing the block of code.](#basicphp249) |
   | basic php  | [In a PHP do...while loop, if the condition is never true, the loop will still execute once.](#basicphp250) |
+  | basic php  | [The do...while loop in PHP will not execute its block of code if the condition is initially false.](#basicphp251) |
+  | basic php  | [Which of the following are true about the do...while loop in PHP?](#basicphp252) |
+  | basic php  | [What are the potential issues with a do...while loop in PHP?](#basicphp253) |
+  | basic php  | [Which of the following are common uses of do...while loops in PHP?](#basicphp254) |
+  | basic php  | [You are writing a PHP script and you need to execute a block of code at least once, and then continue executing it as long as a certain condition is true. How would you do this using a do...while loop?](#basicphp255) |
+  | basic php  | [You have a do...while loop in your PHP script that is not terminating as expected. What could be the possible reasons and how would you debug this?](#basicphp256) |
+  | basic php  | [You need to execute a block of code in your PHP script for an unknown number of times, but the block of code needs to be executed at least once even if the condition is false. How would you do this using a do...while loop?](#basicphp257) |
+  | basic php  | [What is the for loop used for in PHP?](#basicphp258) |
+  | basic php  | [How many expressions does a PHP for loop contain and what are they used for?](#basicphp259) |
+  | basic php  | [What happens if the condition in a PHP for loop is never false?](#basicphp260) |
   
   
   
