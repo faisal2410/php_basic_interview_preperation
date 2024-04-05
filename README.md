@@ -264,6 +264,16 @@ Basic PHP interview questions with an explanation
   | basic php  | [What is the for loop used for in PHP?](#basicphp258) |
   | basic php  | [How many expressions does a PHP for loop contain and what are they used for?](#basicphp259) |
   | basic php  | [What happens if the condition in a PHP for loop is never false?](#basicphp260) |
+  | basic php  | [The for loop in PHP is used to loop through a block of code a specific number of ______.](#basicphp261) |
+  | basic php  | [In a PHP for loop, the three expressions are typically used to set the initial value of a counter variable, provide the condition that the loop should end, and ______.](#basicphp262) |
+  | basic php  | [If the condition in a PHP for loop is never false, the loop will ______.](#basicphp263) |
+  | basic php  | [The for loop in PHP tests the condition ______ executing the block of code.](#basicphp264) |
+  | basic php  | [In PHP, if the condition in a for loop is never false, the loop will ______.](#basicphp265) |
+  | basic php  | [The for loop in PHP is suitable for cases when you know in advance ______ the script should run.](#basicphp266) |
+  | basic php  | [Which of the following are true about the for loop in PHP?](#basicphp267) |
+  | basic php  | [What can be the potential issues with a for loop in PHP?](#basicphp268) |
+  | basic php  | [Which of the following are common uses of for loops in PHP?](#basicphp269) |
+  | basic php  | [You are writing a PHP script and you want to execute a block of code a fixed number of times. How would you do this using a for loop?](#basicphp270) |
   
   
   
