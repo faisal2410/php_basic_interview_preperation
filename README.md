@@ -126,6 +126,87 @@ Basic PHP interview questions with an explanation
   | basic php  | [In PHP, strings can be defined using either single quotes or double quotes.](#basicphp120) |
   | basic php  | [The strlen() function in PHP can be used to find the number of words in a string.](#basicphp121) |
   | basic php  | [In PHP, the str_replace() function is case-sensitive.](#basicphp122) |
+  | basic php  | [Which of the following are valid ways to define a string in PHP?](#basicphp123) |
+  | basic php  | [Which of the following functions in PHP can be used to manipulate strings?](#basicphp124) |
+  | basic php  | [Which of the following are true about strings in PHP?](#basicphp125) |
+  | basic php  | [You are writing a PHP script and you need to combine two strings into one. How would you do this?](#basicphp126) |
+  | basic php  | [You have a string in your PHP script and you want to find out how many characters it has. How would you do this?](#basicphp127) |
+  | basic php  | [You need to replace a certain word in a string in your PHP script. How would you do this?](#basicphp128) |
+  | basic php  | [Which PHP function checks if a variable is a number or a numeric string?](#basicphp129) |
+  | basic php  | [Which of the following is used in PHP to declare a floating-point number?](#basicphp130) |
+  | basic php  | [The is_numeric() function in PHP checks if a variable is a(n) ______.](#basicphp131) |
+  | basic php  | [In PHP, integers can be specified in decimal (base 10), hexadecimal (base 16), octal (base 8), and ______ (base 2) format.](#basicphp132) |
+  | basic php  | [PHP supports two types of numbers: integers and ______.](#basicphp133) |
+  | basic php  | [In PHP, a number must be within a certain range to be considered an integer.](#basicphp134) |
+  | basic php  | [The is_float() function in PHP checks if a variable is an integer.](#basicphp135) |
+  | basic php  | [In PHP, a number with a decimal point or an exponential form is considered a float.](#basicphp136) |
+  | basic php  | [Which of the following are valid ways to specify an integer in PHP?](#basicphp137) |
+  | basic php  | [Which of the following functions in PHP can be used to check the type of a number ?](#basicphp138) |
+  | basic php  | [Which of the following are true about numbers in PHP?](#basicphp139) |
+  | basic php  | [You are writing a PHP script and you need to check if a variable contains a numeric value. How would you do this?](#basicphp140) |
+  | basic php  | [You need to store a price, which includes cents, in a variable in your PHP script. What type of number would you use and why?](#basicphp141) |
+  | basic php  | [You need to check if a variable in your PHP script is an integer. How would you do this?](#basicphp142) |
+  | basic php  | [What PHP function is used to return the highest value from a list of numbers?](#basicphp143) |
+  | basic php  | [Which PHP function returns the square root of a number?](#basicphp144) |
+  | basic php  | [What is the function to round a floating-point number in PHP?](#basicphp145) |
+  | basic php  | [The max() function in PHP returns the ______ value from a list of numbers.](#basicphp146) |
+  | basic php  | [In PHP, the sqrt() function returns the square root of a(n) ______.](#basicphp147) |
+  | basic php  | [The round() function in PHP rounds a floating point number to the nearest ______.](#basicphp148) |
+  | basic php  | [The min() function in PHP returns the ______ value from a list of numbers.](#basicphp149) |
+  | basic php  | [The rand() function in PHP returns a ______ integer.](#basicphp150) |
+  | basic php  | [The ceil() function in PHP rounds a number up to the nearest ______.](#basicphp151) |
+  | basic php  | [Which of the following are valid PHP Math functions?](#basicphp152) |
+  | basic php  | [Which of the following functions in PHP can be used to round a number?](#basicphp153) |
+  | basic php  | [Which of the following are true about PHP Math functions?](#basicphp154) |
+  | basic php  | [You are writing a PHP script and you need to find the highest value in a list of numbers. How would you do this?](#basicphp155) |
+  | basic php  | [You need to generate a random number in your PHP script. What function would you use and why?](#basicphp156) |
+  | basic php  | [You have a floating-point number in your PHP script and you need to round it to the nearest integer. How would you do this?](#basicphp157) |
+  | basic php  | [Which PHP function is used to create a constant?](#basicphp158) |
+  | basic php  | [In PHP, constant identifiers are always case-______.](#basicphp159) |
+  | basic php  | [Unlike variables, constants in PHP are automatically ______.](#basicphp160) |
+  | basic php  | [In PHP, constants are defined using the ______ function.](#basicphp161) |
+  | basic php  | [Once a constant is set in PHP, it cannot be ______ or ______.](#basicphp162) |
+  | basic php  | [In PHP, the ______ function checks if a constant with a given name exists.](#basicphp163) |
+  | basic php  | [PHP constants are case -_________.](#basicphp164) |
+  | basic php  | [Once a constant is defined in PHP, it ______ be changed during the execution of the script.](#basicphp165) |
+  | basic php  | [Constants in PHP can be defined and accessed anywhere in the script without regard to ______ rules.](#basicphp166) |
+  | basic php  | [Which of the following are true about constants in PHP?](#basicphp167) |
+  | basic php  | [Which of the following PHP functions are related to constants?](#basicphp168) |
+  | basic php  | [Which of the following are differences between variables and constants in PHP?](#basicphp169) |
+  | basic php  | [You are writing a PHP script and you need to set a value that should not change throughout the execution of the script. How would you do this?](#basicphp170) |
+  | basic php  | [You want to check if a certain constant has been defined in your PHP script. How would you do this?](#basicphp171) |
+  | basic php  | [You need to define a constant in your PHP script that can be accessed anywhere in the script, regardless of scope. How would you do this?](#basicphp172) |
+  | basic php  | [What is the operator used for addition in PHP?](#basicphp173) |
+  | basic php  | [Which of the following is a comparison operator in PHP?](#basicphp174) |
+  | basic php  | [What is the purpose of the assignment operators in PHP?](#basicphp175) |
+  | basic php  | [The + operator in PHP is used for ______.](#basicphp176) |
+  | basic php  | [The == operator in PHP is a type of ______ operator.](#basicphp177) |
+  | basic php  | [The = operator in PHP is a type of ______ operator.](#basicphp178) |
+  | basic php  | [In PHP, the * operator is used for ______.](#basicphp179) |
+  | basic php  | [The === operator in PHP checks if the values of two operands are ______ and of the ______ type.](#basicphp180) |
+  | basic php  | [The && operator in PHP is an example of a ______ operator.](#basicphp181) |
+  | basic php  | [You are writing a PHP script and you need to add the values of two variables. How would you do this using operators?](#basicphp182) |
+  | basic php  | [You need to compare two variables in your PHP script to check if they are equal. What operator would you use and why?](#basicphp183) |
+  | basic php  | [What is the purpose of the if statement in PHP?](#basicphp184) |
+  | basic php  | [What is the else statement used for in PHP?](#basicphp185) |
+  | basic php  | [In PHP, the if statement is used to execute some code if a ______ is true.](#basicphp186) |
+  | basic php  | [The else statement in PHP is used to execute some code if the same ______ is false.](#basicphp187) |
+  | basic php  | [The elseif statement in PHP is used to specify a new condition to test if the first condition is ______.](#basicphp188) |
+  | basic php  | [The else statement in PHP can only be used after an if statement.](#basicphp189) |
+  | basic php  | [The elseif statement in PHP can be used to test multiple conditions.](#basicphp190) |
+  | basic php  | [Which of the following are true about the if statement in PHP?](#basicphp191) |
+  | basic php  | [Which of the following are true about the else statement in PHP?](#basicphp192) |
+  | basic php  | [Which of the following are true about the elseif statement in PHP?](#basicphp193) |
+  | basic php  | [You are writing a PHP script and you need to execute some code only if a certain condition is met. How would you do this using an if statement?](#basicphp194) |
+  | basic php  | [You want to execute some code in your PHP script if a certain condition is not met. How would you do this using an else statement?](#basicphp195) |
+  | basic php  | [You have multiple conditions in your PHP script and you want to test each one in order. How would you do this using if, elseif, and else statements?](#basicphp196) |
+  | basic php  | [What is the purpose of the switch statement in PHP ?](#basicphp197) |
+  | basic php  | [In a PHP switch statement, what does the case keyword represent?](#basicphp198) |
+  | basic php  | [What is the default keyword used for in a PHP switch statement?](#basicphp199) |
+  | basic php  | [The switch statement in PHP is used to select one of many blocks of code to be executed.](#basicphp200) |
+  | basic php  | [In a PHP switch statement, the case keyword is followed by a value to compare against the expression.](#basicphp201) |
+  
+  
   
   
   
