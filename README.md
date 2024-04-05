@@ -410,6 +410,102 @@ Basic PHP interview questions with an explanation
   | basic php  | [What is the $GLOBALS superglobal in PHP?](#basicphp403) |
   | basic php  | [How do you use the $GLOBALS superglobal in PHP?](#basicphp404) |
   | basic php  | [What is a common use case for the $GLOBALS superglobal in PHP?](#basicphp405) |
+  | basic php  | [In PHP, $GLOBALS is a superglobal array that contains references to all ______ that are currently defined in the global scope of the script.](#basicphp406) |
+  | basic php  | [To access a global variable inside a function using $GLOBALS, you can use $GLOBALS'variable_name' where 'variable_name' is the name of the ______.](#basicphp407) |
+  | basic php  | [A common use case for the $GLOBALS superglobal in PHP is to access global variables from within a function, which would otherwise be out of the function's ______.](#basicphp408) |
+  | basic php  | [The $GLOBALS superglobal in PHP is an associative array.](#basicphp409) |
+  | basic php  | [You cannot modify global variables using the $GLOBALS superglobal in PHP.](#basicphp410) |
+  | basic php  | [You are writing a PHP script and you need to access a global variable from within a function. How would you do this using the $GLOBALS superglobal?](#basicphp411) |
+  | basic php  | [You have a PHP script and you need to modify a global variable from within a function. How would you do this using the $GLOBALS superglobal?](#basicphp412) |
+  | basic php  | [You need to access several global variables from within a function in your PHP script. How would you do this using the $GLOBALS superglobal?](#basicphp413) |
+  | basic php  | [What happens if the file to be written to using the fwrite() function in PHP does not exist?](#basicphp414) |
+  | basic php  | [In PHP, you can create a file using the fopen() function with 'w' as the mode, which will create the file if it doesn't exist and open it for ______.](#basicphp415) |
+  | basic php  | [If you want to write to a file in PHP, you can use the fwrite() function where the first argument is the file pointer and the second argument is the ______.](#basicphp416) |
+  | basic php  | [How can you get the current date and time in PHP?](#basicphp417) |
+  | basic php  | [What PHP function can be used to format a date?](#basicphp418) |
+  | basic php  | [What is the return type of the time() function in PHP?](#basicphp419) |
+  | basic php  | [In PHP, you can get the current date and time using the date() function, which takes a string format as the ______.](#basicphp420) |
+  | basic php  | [If you want to format a date in PHP, you can use the date() function where the first argument is the format string and the second argument is the ______.](#basicphp421) |
+  | basic php  | [A common use case of the time() function in PHP is to get the current Unix ______.](#basicphp422) |
+  | basic php  | [How can you include a file in PHP?](#basicphp423) |
+  | basic php  | [What is the difference between the include and require statements in PHP?](#basicphp424) |
+  | basic php  | [What happens if the file to be included using the include statement in PHP is not found?](#basicphp425) |
+  | basic php  | [In PHP, you can include a file using the include or require statement, which takes the path to the file as the ______.](#basicphp426) |
+  | basic php  | [If the file to be included using the include statement in PHP is not found, the script will ______.](#basicphp427) |
+  | basic php  | [A common use case of the include statement in PHP is to include ______.](#basicphp428) |
+  | basic php  | [In PHP, the include statement is used to include a file.](#basicphp429) |
+  | basic php  | [The require statement in PHP will cause a fatal error if the file to be included is not found.](#basicphp430) |
+  | basic php  | [You can use the include statement in PHP to include files from a remote server.](#basicphp431) |
+  | basic php  | [Which of the following are ways to include a file in PHP?](#basicphp432) |
+  | basic php  | [What are some differences between the include and require statements in PHP?](#basicphp433) |
+  | basic php  | [What are some common uses of the include statement in PHP?](#basicphp434) |
+  | basic php  | [You are writing a PHP script and you need to include a file. How would you do this?](#basicphp435) |
+  | basic php  | [You have a PHP script and you need to include a file, but you want to continue execution of the script even if the file is not found. Which statement would you use and why?](#basicphp436) |
+  | basic php  | [You need to include a file in your PHP script, but you want to cause a fatal error if the file is not found. Which statement would you use and why?](#basicphp437) |
+  | basic php  | [How can you open a file in PHP?](#basicphp438) |
+  | basic php  | [What PHP function can be used to read a file?](#basicphp439) |
+  | basic php  | [What is the purpose of the fclose() function in PHP?](#basicphp440) |
+  | basic php  | [In PHP, you can open a file using the fopen() function, which takes the path to the file and the mode as the ______.](#basicphp441) |
+  | basic php  | [If you want to read a file in PHP, you can use the fread() function where the first argument is the file pointer and the second argument is the maximum number of ______ to read.](#basicphp442) |
+  | basic php  | [A common practice in PHP file handling is to always close the file after you're done with it using the fclose() function to free up ______.](#basicphp443) |
+  | basic php  | [In PHP, the fopen() function is used to open a file.](#basicphp444) |
+  | basic php  | [The fread() function in PHP is used to read a file.](#basicphp445) |
+  | basic php  | [You should always close a file in PHP using the fclose() function after you're done with it.](#basicphp446) |
+  | basic php  | [Which of the following are ways to open a file in PHP?](#basicphp447) |
+  | basic php  | [What are some common uses of the fread() function in PHP?](#basicphp448) |
+  | basic php  | [What are some common uses of the fclose() function in PHP?](#basicphp449) |
+  | basic php  | [You are writing a PHP script and you need to open a file. How would you do this?](#basicphp450) |
+  | basic php  | [You have a PHP script and you need to read a file. How would you do this?](#basicphp451) |
+  | basic php  | [You need to close a file in your PHP script after you're done with it. How would you do this?](#basicphp452) |
+  | basic php  | [What function is used to open a file in PHP?](#basicphp453) |
+  | basic php  | [What function is used to read the contents of a file in PHP?](#basicphp454) |
+  | basic php  | [Which function is used to close a file in PHP?](#basicphp455) |
+  | basic php  | [In PHP, the ______ function is used to open a file.](#basicphp456) |
+  | basic php  | [In PHP, the ______ function is used to read the contents of a file.](#basicphp457) |
+  | basic php  | [In PHP, after you have finished working with a file, you should always close it using the ______ function.](#basicphp458) |
+  | basic php  | [The fopen() function is used to open a file in PHP.](#basicphp459) |
+  | basic php  | [The fread() function is used to read the contents of a file in PHP.](#basicphp460) |
+  | basic php  | [The fclose() function is used to close a file in PHP.](#basicphp461) |
+  | basic php  | [Which of the following functions are related to file handling in PHP?](#basicphp462) |
+  | basic php  | [Which of the following actions are commonly performed on files in PHP?](#basicphp463) |
+  | basic php  | [Which of the following functions can be used to read the contents of a file in PHP?](#basicphp464) |
+  | basic php  | [You are working on a PHP script and need to open a file, read its contents, and then close it. What steps would you take?](#basicphp465) |
+  | basic php  | [You are tasked with creating a PHP function that accepts a filename, opens the file, prints its contents, and then closes the file. How would you approach this task?](#basicphp466) |
+  | basic php  | [You have a PHP script that is running out of memory when trying to read large files. You discover that the files are not being closed properly. What changes would you make to fix this issue?](#basicphp467) |
+  | basic php  | [How can you create a file in PHP?](#basicphp467a) |
+  | basic php  | [What PHP function can be used to write to a file?](#basicphp468) |
+  | basic php  | [A common practice in PHP file handling is to always close the file after you're done writing to it using the fclose() function to free up ______.](#basicphp469) |
+  | basic php  | [In PHP, the fopen() function with 'w' as the mode will create a file if it doesn't exist and open it for ______.](#basicphp470) |
+  | basic php  | [The fwrite() function in PHP is used to ______.](#basicphp471) |
+  | basic php  | [You should always close a file in PHP using the fclose() function after you're done writing to it.](#basicphp472) |
+  | basic php  | [Which of the following are ways to create a file in PHP?](#basicphp473) |
+  | basic php  | [What are some common uses of the fwrite() function in PHP?](#basicphp474) |
+  | basic php  | [What are some common practices in PHP file handling?](#basicphp475) |
+  | basic php  | [You are writing a PHP script and you need to create a file and write to it. How would you do this?](#basicphp476) |
+  | basic php  | [You have a PHP script and you need to open a file, write to it, and then close it. How would you do this?](#basicphp477) |
+  | basic php  | [You need to create a file in your PHP script, write to it, and ensure that the file is closed properly after writing. How would you do this?](#basicphp478) |
+  | basic php  | [How can you upload a file in PHP?](#basicphp479) |
+  | basic php  | [What PHP superglobal array holds the information about uploaded files?](#basicphp480) |
+  | basic php  | [How can you move the uploaded file to a desired directory in PHP?](#basicphp481) |
+  | basic php  | [In PHP, you can upload a file using an HTML form and the POST method, and you can access the uploaded file information using the $_FILES ______ array.](#basicphp482) |
+  | basic php  | [To move the uploaded file to a desired directory in PHP, you can use the move_uploaded_file() function where the first argument is the temporary filename and the second argument is the ______.](#basicphp483) |
+  | basic php  | [In PHP file upload, the $_FILES array contains keys like 'name', 'type', 'size', 'tmp_name', and 'error' which represent ______.](#basicphp484) |
+  | basic php  | [In PHP, you can upload a file using an HTML form and the POST method.](#basicphp485) |
+  | basic php  | [The $_FILES superglobal array in PHP holds information about uploaded files.](#basicphp486) |
+  | basic php  | [You should use the move_uploaded_file() function in PHP to move the uploaded file to a desired directory.](#basicphp487) |
+  | basic php  | [Which of the following are ways to upload a file in PHP?](#basicphp488) |
+  | basic php  | [What are some common uses of the $_FILES superglobal array in PHP?](#basicphp489) |
+  | basic php  | [How can you filter multiple inputs in PHP?](#basicphp490) |
+  | basic php  | [What is the purpose of the filter_input_array() function in PHP?](#basicphp491) |
+  | basic php  | [Which PHP function is used to get the list of all supported filters?](#basicphp492) |
+  | basic php  | [The filter_input_array() function in PHP is used to get the ______ values and optionally filter them.](#basicphp493) |
+  | basic php  | [To get the list of all supported filters in PHP, you can use the filter_list() ______.](#basicphp494) |
+  | basic php  | [The filter_var_array() function in PHP allows you to filter ______ inputs at once.](#basicphp495) |
+  | basic php  | [The filter_input_array() function is used to get multiple input values and optionally filter them in PHP.](#basicphp496) |
+  | basic php  | [The filter_list() function is used to get the list of all supported filters in PHP.](#basicphp497) |
+  | basic php  | [The filter_var_array() function allows you to filter multiple inputs at once in PHP.](#basicphp498) |
+  | basic php  | [Which of the following are common uses of the filter_input_array() and filter_var_array() functions in PHP?](#basicphp499) |
+  | basic php  | [What types of data can be filtered using the filter_input_array() and filter_var_array() functions in PHP?](#basicphp500) |
   
   
   
