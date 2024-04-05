@@ -112,6 +112,20 @@ Basic PHP interview questions with an explanation
   | basic php  | [The print statement in PHP can output multiple parameters at once.](#basicphp106) |
   | basic php  | [echo and print are functions in PHP.](#basicphp107) |
   | basic php  | [Which of the following are true about the echo statement in PHP?](#basicphp108) |
+  | basic php  | [Which of the following are true about the print statement in PHP?](#basicphp109) |
+  | basic php  | [Which of the following can be done using either echo or print in PHP?](#basicphp110) |
+  | basic php  | [You want to output a variable's value along with some text in PHP. How would you use echo or print to do this?](#basicphp111) |
+  | basic php  | [You need to output a large block of HTML code in your PHP script.Which statement would be more suitable, echo or print, and why ?](#basicphp112) |
+  | basic php  | [You are debugging a PHP script and you need to check the value of a variable at a certain point in the script. How would you use echo or print to do this?](#basicphp113) |
+  | basic php  | [What is the concatenation operator in PHP?](#basicphp114) |
+  | basic php  | [Which of the following functions can be used in PHP to find the length of a string?](#basicphp115) |
+  | basic php  | [How are strings defined in PHP?](#basicphp116) |
+  | basic php  | [The ______ function in PHP is used to return the length of a string.](#basicphp117) |
+  | basic php  | [In PHP, the ______ function is used to replace some characters in a string with some other characters.](#basicphp118) |
+  | basic php  | [To concatenate two strings in PHP, you use the ______ operator.](#basicphp119) |
+  | basic php  | [In PHP, strings can be defined using either single quotes or double quotes.](#basicphp120) |
+  | basic php  | [The strlen() function in PHP can be used to find the number of words in a string.](#basicphp121) |
+  | basic php  | [In PHP, the str_replace() function is case-sensitive.](#basicphp122) |
   
   
   
