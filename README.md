@@ -405,6 +405,11 @@ Basic PHP interview questions with an explanation
   | basic php  | [What can be potential issues when working with superglobals in PHP?](#basicphp398) |
   | basic php  | [Which of the following are common uses of superglobals in PHP?](#basicphp399) |
   | basic php  | [You are writing a PHP script and you need to access data that was submitted from a form using the POST method. How would you do this using a superglobal?](#basicphp400) |
+  | basic php  | [You have a PHP script and you need to store information about a user session. How would you do this using a superglobal?](#basicphp401) |
+  | basic php  | [You need to access information about the server in your PHP script. How would you do this using a superglobal?](#basicphp402) |
+  | basic php  | [What is the $GLOBALS superglobal in PHP?](#basicphp403) |
+  | basic php  | [How do you use the $GLOBALS superglobal in PHP?](#basicphp404) |
+  | basic php  | [What is a common use case for the $GLOBALS superglobal in PHP?](#basicphp405) |
   
   
   
