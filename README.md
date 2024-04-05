@@ -205,6 +205,41 @@ Basic PHP interview questions with an explanation
   | basic php  | [What is the default keyword used for in a PHP switch statement?](#basicphp199) |
   | basic php  | [The switch statement in PHP is used to select one of many blocks of code to be executed.](#basicphp200) |
   | basic php  | [In a PHP switch statement, the case keyword is followed by a value to compare against the expression.](#basicphp201) |
+  | basic php  | [The default keyword in a PHP switch statement specifies the code to execute if there is no matching case.](#basicphp202) |
+  | basic php  | [The switch statement in PHP can only test a single condition.](#basicphp203) |
+  | basic php  | [The case keyword in a PHP switch statement represents a possible value for the expression.](#basicphp204) |
+  | basic php  | [The default keyword in a PHP switch statement is optional.](#basicphp205) |
+  | basic php  | [Which of the following are true about the switch statement in PHP?](#basicphp206) |
+  | basic php  | [Which of the following are true about the case keyword in a PHP switch statement?](#basicphp207) |
+  | basic php  | [Which of the following are true about the default keyword in a PHP switch statement?](#basicphp208) |
+  | basic php  | [You are writing a PHP script and you have a variable that can have many different values. You want to execute different blocks of code depending on the value of this variable. How would you do this using a switch statement?](#basicphp209) |
+  | basic php  | [You have a switch statement in your PHP script and you want to specify what code to execute if none of the cases match the expression. How would you do this using the default keyword?](#basicphp210) |
+  | basic php  | [You are using a switch statement in your PHP script and you want to execute the same block of code for multiple cases. How would you do this?](#basicphp211) |
+  | basic php  | [What is the purpose of a loop in PHP?](#basicphp212) |
+  | basic php  | [Which PHP loop will execute a block of code at least once, then it will repeat the loop as long as the condition is true?](#basicphp213) |
+  | basic php  | [Which PHP loop is suitable when you want to iterate over a block of code for a known number of times?](#basicphp214) |
+  | basic php  | [The for loop in PHP is used when you want to loop through a block of code a specific number of ______.](#basicphp215) |
+  | basic php  | [The while loop in PHP will continue to execute a block of code as long as the ______ is true.](#basicphp216) |
+  | basic php  | [The do...while loop in PHP will always execute the block of code at least ______, then it will repeat the loop as long as the condition is true.](#basicphp217) |
+  | basic php  | [The foreach loop in PHP is used exclusively for ______.](#basicphp218) |
+  | basic php  | [In PHP, the while loop tests the condition ______ executing the block of code.](#basicphp219) |
+  | basic php  | [The do...while loop in PHP tests the condition ______ executing the block of code.](#basicphp220) |
+  | basic php  | [Which of the following are types of loops in PHP?](#basicphp221) |
+  | basic php  | [Which of the following PHP loops checks the condition before the loop has run?](#basicphp222) |
+  | basic php  | [Which of the following are true about loops in PHP?](#basicphp223) |
+  | basic php  | [You are writing a PHP script and you want to execute a block of code a certain number of times. Which type of loop would you use and why?](#basicphp224) |
+  | basic php  | [You have an array in your PHP script and you want to execute a block of code for each element in the array. Which type of loop would you use and why?](#basicphp225) |
+  | basic php  | [You need to execute a block of code at least once in your PHP script, then repeat it as long as a certain condition is true. Which type of loop would you use and why?](#basicphp226) |
+  | basic php  | [What is the while loop used for in PHP?](#basicphp227) |
+  | basic php  | [In a PHP while loop, where is the condition tested?](#basicphp228) |
+  | basic php  | [What happens if the condition in a PHP while loop is never false?](#basicphp229) |
+  | basic php  | [The while loop in PHP will continue to execute a block of code as long as the ______ is true.](#basicphp230) |
+  | basic php  | [In a PHP while loop, the condition is tested ______ the code block is executed.](#basicphp231) |
+  | basic php  | [If the condition in a PHP while loop is never false, the loop will ______.](#basicphp232) |
+  | basic php  | [The while loop in PHP tests the condition ______ executing the block of code.](#basicphp233) |
+  | basic php  | [In PHP, if the condition in a while loop is never false, the loop will ______.](#basicphp234) |
+  | basic php  | [A PHP while loop will always execute its block of code ______.](#basicphp235) |
+  | basic php  | [Which of the following are true about the while loop in PHP?](#basicphp236) |
   
   
   
