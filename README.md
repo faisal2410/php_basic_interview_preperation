@@ -355,6 +355,56 @@ Basic PHP interview questions with an explanation
   | basic php  | [The keys in a PHP associative array can be both strings and integers.](#basicphp348) |
   | basic php  | [You can use numerical keys in an associative array in PHP.](#basicphp349) |
   | basic php  | [Which of the following are true about associative arrays in PHP?](#basicphp350) |
+  | basic php  | [What can be potential issues when working with associative arrays in PHP?](#basicphp351) |
+  | basic php  | [Which of the following are common uses of associative arrays in PHP?](#basicphp352) |
+  | basic php  | [You are writing a PHP script and you need to store a collection of items that can be accessed by a unique key for each item. How would you do this using an associative array?](#basicphp353) |
+  | basic php  | [You have an associative array in your PHP script and you're encountering issues with accessing or manipulating the elements. How would you debug this?](#basicphp354) |
+  | basic php  | [You need to store a collection of key-value pairs in your PHP script and then sort them based on the keys or values. How would you do this using an associative array?](#basicphp355) |
+  | basic php  | [What is a multidimensional array in PHP?](#basicphp356) |
+  | basic php  | [How do you access the elements of a multidimensional array in PHP?](#basicphp357) |
+  | basic php  | [How many dimensions can a multidimensional array in PHP have?](#basicphp358) |
+  | basic php  | [In PHP, a multidimensional array is an array that contains ______ within it.](#basicphp359) |
+  | basic php  | [To access an element of a multidimensional array in PHP, you use the name of the array followed by the ______ of the element in square brackets.](#basicphp360) |
+  | basic php  | [In PHP, a multidimensional array can have as many dimensions as you need, although they can become hard to manage when they have more than ______ dimensions.](#basicphp361) |
+  | basic php  | [In PHP, a multidimensional array can only contain indexed arrays.](#basicphp362) |
+  | basic php  | [The elements of a PHP multidimensional array can be accessed using multiple indices.](#basicphp363) |
+  | basic php  | [PHP multidimensional arrays can only be two-dimensional.](#basicphp364) |
+  | basic php  | [Which of the following are true about multidimensional arrays in PHP?](#basicphp365) |
+  | basic php  | [Which of the following are true about multidimensional arrays in PHP?](#basicphp366) |
+  | basic php  | [Which of the following are common uses of multidimensional arrays in PHP?](#basicphp367) |
+  | basic php  | [You are writing a PHP script and you need to store a collection of items, where each item is itself a collection of items. How would you do this using a multidimensional array?](#basicphp368) |
+  | basic php  | [You have a multidimensional array in your PHP script and you're encountering issues with accessing or manipulating the elements. How would you debug this?](#basicphp369) |
+  | basic php  | [You need to store a complex data structure in your PHP script, such as a matrix or a table. How would you do this using a multidimensional array?](#basicphp370) |
+  | basic php  | [What functions does PHP provide for sorting arrays?](#basicphp371) |
+  | basic php  | [What is the difference between sort() and rsort() in PHP?](#basicphp372) |
+  | basic php  | [How do you sort an associative array by its keys in PHP?](#basicphp373) |
+  | basic php  | [The sort() function in PHP sorts an array in ______ order.](#basicphp374) |
+  | basic php  | [The rsort() function in PHP sorts an array in ______ order.](#basicphp375) |
+  | basic php  | [To sort an associative array by its keys in PHP, you use the ksort() function or the krsort() function for ______ order.](#basicphp376) |
+  | basic php  | [The sort() function in PHP maintains the association between keys and values in an associative array.](#basicphp377) |
+  | basic php  | [The asort() function in PHP sorts an associative array in ascending order based on its values, while maintaining the association between keys and values.](#basicphp378) |
+  | basic php  | [The krsort() function in PHP sorts an associative array in ascending order based on its keys.](#basicphp379) |
+  | basic php  | [Which of the following are true about sorting arrays in PHP?](#basicphp380) |
+  | basic php  | [What can be potential issues when sorting arrays in PHP?](#basicphp381) |
+  | basic php  | [What can be potential issues when sorting arrays in PHP?](#basicphp382) |
+  | basic php  | [You have an array in your PHP script and you need to sort it in ascending order. How would you do this?](#basicphp383) |
+  | basic php  | [You have an associative array in your PHP script and you want to sort it based on its values, while maintaining the association between keys and values. How would you do this?](#basicphp384) |
+  | basic php  | [You need to sort an associative array in your PHP script based on its keys, in descending order. How would you do this?](#basicphp385) |
+  | basic php  | [What are superglobals in PHP ?](#basicphp386) |
+  | basic php  | [Can you provide an example of a superglobal in PHP?](#basicphp387) |
+  | basic php  | [You are writing a PHP script and you have a block of code that needs to be executed multiple times. How would you encapsulate this block of code into a function for reuse?](#basicphp388) |
+  | basic php  | [You have a function in your PHP script that's supposed to return a value, but it's not returning as expected. How would you debug this?](#basicphp389) |
+  | basic php  | [How can you access superglobals in PHP?](#basicphp390) |
+  | basic php  | [In PHP, superglobals are ______ that are always accessible, regardless of scope.](#basicphp391) |
+  | basic php  | [An example of a superglobal in PHP is $_POST, which is used to collect form data sent with the ______ method.](#basicphp392) |
+  | basic php  | [Superglobals in PHP are accessed just like any other variable, but they are always available, no matter where you are in the script, even within ______.](#basicphp393) |
+  | basic php  | [PHP superglobals are only accessible within functions.](#basicphp394) |
+  | basic php  | [The PHP $_SERVER superglobal contains information about headers, paths, and script locations.](#basicphp395) |
+  | basic php  | [The PHP $_SESSION superglobal is used to store information about a user session.](#basicphp396) |
+  | basic php  | [Which of the following are true about superglobals in PHP?](#basicphp397) |
+  | basic php  | [What can be potential issues when working with superglobals in PHP?](#basicphp398) |
+  | basic php  | [Which of the following are common uses of superglobals in PHP?](#basicphp399) |
+  | basic php  | [You are writing a PHP script and you need to access data that was submitted from a form using the POST method. How would you do this using a superglobal?](#basicphp400) |
   
   
   
