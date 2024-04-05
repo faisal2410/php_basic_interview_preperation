@@ -274,6 +274,16 @@ Basic PHP interview questions with an explanation
   | basic php  | [What can be the potential issues with a for loop in PHP?](#basicphp268) |
   | basic php  | [Which of the following are common uses of for loops in PHP?](#basicphp269) |
   | basic php  | [You are writing a PHP script and you want to execute a block of code a fixed number of times. How would you do this using a for loop?](#basicphp270) |
+  | basic php  | [You have a for loop in your PHP script that is not terminating as expected. What could be the possible reasons and how would you debug this?](#basicphp271) |
+  | basic php  | [You need to execute a block of code in your PHP script for a known number of times. Why might you choose a for loop over a while loop or a do...while loop?](#basicphp272) |
+  | basic php  | [The foreach loop in PHP is used to loop over each ______ in an array.](#basicphp273) |
+  | basic php  | [In a PHP foreach loop, the as keyword is used to assign the current element's value to the ______ variable.](#basicphp274) |
+  | basic php  | [If you try to use a foreach loop on a non-array variable in PHP, it will result in a ______.](#basicphp275) |
+  | basic php  | [The foreach loop in PHP is used exclusively for arrays.](#basicphp276) |
+  | basic php  | [In PHP, the foreach loop can only access the values of an array, not the keys.](#basicphp277) |
+  | basic php  | [If you try to use a foreach loop on a non-array variable in PHP, it will execute without error.](#basicphp278) |
+  | basic php  | [Which of the following are true about the foreach loop in PHP?](#basicphp279) |
+  | basic php  | [What can be the potential issues with a foreach loop in PHP?](#basicphp280) |
   
   
   
