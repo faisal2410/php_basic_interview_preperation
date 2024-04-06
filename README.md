@@ -556,8 +556,56 @@ Basic PHP interview questions with an explanation
   | basic php  | [You have a PHP script and you need to create an object from a class. How would you do this?](#basicphp548) |
   | basic php  | [You need to use inheritance in your PHP script. How would you do this?](#basicphp549) |
   | basic php  | [How do you define a class in PHP?](#basicphp550) |
+  | basic php  | [How do you create an object in PHP?](#basicphp551) |
+  | basic php  | [In PHP, what is the purpose of the $this keyword?](#basicphp552) |
+  | basic php  | [In PHP, you can define a class using the class keyword followed by the class name like class ______.](#basicphp553) |
+  | basic php  | [You can create an object in PHP by using the new keyword followed by the class name like $object = new ______.](#basicphp554) |
+  | basic php  | [In PHP, the $this keyword is used to refer to the ______ instance of the class.](#basicphp555) |
+  | basic php  | [You can define a class in PHP using the class keyword.](#basicphp556) |
+  | basic php  | [An object in PHP is created using the new keyword followed by the class name.](#basicphp557) |
+  | basic php  | [The $this keyword in PHP is used to refer to the current instance of the class.](#basicphp558) |
+  | basic php  | [What are some key components of a class in PHP?](#basicphp559) |
+  | basic php  | [What are some ways you can use an object in PHP?](#basicphp560) |
+  | basic php  | [What are some common practices in PHP when dealing with classes and objects?](#basicphp561) |
+  | basic php  | [You are writing a PHP script and you need to define a class. How would you do this?](#basicphp562) |
+  | basic php  | [You have a PHP script and you need to create an object from a class. How would you do this?](#basicphp563) |
+  | basic php  | [You need to use the $this keyword in your PHP script. How would you do this?](#basicphp564) |
+  | basic php  | [How do you define a constructor in a PHP class?](#basicphp565) |
+  | basic php  | [What is the main purpose of a constructor in a PHP class?](#basicphp566) |
+  | basic php  | [Can a PHP class have more than one constructor?](#basicphp567) |
+  | basic php  | [In PHP, you can define a constructor in a class using the __construct() keyword.](#basicphp568) |
+  | basic php  | [The main purpose of a constructor in a PHP class is to initialize the object's properties when an object of the class is created.](#basicphp569) |
+  | basic php  | [A PHP class cannot have more than one constructor.](#basicphp570) |
+  | basic php  | [A constructor in a PHP class is defined using the __construct() method.](#basicphp571) |
+  | basic php  | [The main purpose of a constructor in a PHP class is to initialize the object when it is created.](#basicphp572) |
+  | basic php  | [A PHP class can have more than one constructor.](#basicphp573) |
+  | basic php  | [What are some of the uses of a constructor in a PHP class?](#basicphp574) |
+  | basic php  | [What are some common practices in PHP when using constructors in classes?](#basicphp575) |
+  | basic php  | [You are writing a PHP script and you need to define a constructor in a class. How would you do this?](#basicphp576) |
+  | basic php  | [You have a PHP script and you need to perform some initialization when an object of a class is created. How would you do this using a constructor?](#basicphp577) |
+  | basic php  | [You need to understand if a PHP class can have more than one constructor. What would be your conclusion?](#basicphp578) |
+  | basic php  | [How do you define a destructor in a PHP class?](#basicphp579) |
+  | basic php  | [What is the main purpose of a destructor in a PHP class?](#basicphp580) |
+  | basic php  | [When is a destructor called in a PHP class?](#basicphp581) |
+  | basic php  | [In PHP, you can define a destructor in a class using the __destruct() keyword.](#basicphp582) |
+  | basic php  | [The main purpose of a destructor in a PHP class is to perform cleanup tasks before the object is destroyed.](#basicphp583) |
+  | basic php  | [A destructor in a PHP class is called when the object is no longer referenced or explicitly destroyed.](#basicphp584) |
+  | basic php  | [A destructor in a PHP class is defined using the __destruct() method.](#basicphp585) |
+  | basic php  | [The main purpose of a destructor in a PHP class is to perform cleanup tasks before the object is destroyed.](#basicphp586) |
+  | basic php  | [What is the purpose of the array_pop() function in PHP?](#basicphp587) |
+  | basic php  | [What is the purpose of the array_shift() function in PHP?](#basicphp588) |
+  | basic php  | [What is the purpose of the array_slice() function in PHP?](#basicphp589) |
+  | basic php  | [ What is the purpose of the array_combine() function in PHP?](#basicphp590) |
   
-  
+
+
+  ------------------------------------------------------------------------------------------------------------------
+
+
+  -------------------------------------------------------------------------------------------------------------------
+
+
+  --------------------------------------------------------------------------------------------------------------------
   
   
   
