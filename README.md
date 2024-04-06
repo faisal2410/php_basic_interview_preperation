@@ -608,52 +608,61 @@ Basic PHP interview questions with an explanation
   --------------------------------------------------------------------------------------------------------------------
   
   
-  
+  ###### phpbasic1
 // ⁉ Question 1: Which programming language does PHP resemble?
 
 // ℹ Explanation
 // PHP resembles Perl in terms of syntax and features. Both languages share similar characteristics, such as a focus on web development and support for regular expressions.
 
+###### phpbasic2
 // ⁉ Question 2: What does PEAR stand for?
     
 // ℹ Explanation
 // PEAR stands for PHP Extension and Application Repository. It is a framework and distribution system for reusable PHP components, providing a centralized repository of libraries, extensions, and tools. PEAR helps in sharing and reusing code, promoting code quality and collaboration within the PHP community.
 
+###### phpbasic3
 // ⁉ Question 3: What is the actually used PHP version ?
     
 // ℹ Explanation
 // The currently used PHP version is PHP 8.3 It is the latest major release of PHP, introducing significant performance improvements, new features, and enhancements. PHP 8.3 offers improved type safety, JIT compilation, union types, named arguments, attributes, and more. It is recommended to use the latest PHP version to benefit from the latest features, bug fixes, and security patches.
 
+###### phpbasic4
 // ⁉ Question 4: How do you execute a PHP script from the command line ?
     
 // ℹ Explanation
 // To execute a PHP script from the command line, you can use the command php script.php, where script.php is the name of your PHP file.This command runs the PHP interpreter, reads and executes the code in the specified file.It allows you to run PHP scripts outside of a web server environment, enabling command - line applications or batch processing tasks.
-    
+
+  ###### phpbasic5
 // ⁉ Question 5: How to run the interactive PHP shell from the command line interface ?
     
 // ℹ Explanation
 // To run the interactive PHP shell from the command line interface, you can use the command php - a.This command starts an interactive mode where you can enter and execute PHP code directly.It allows for quick testing and experimentation without the need for a complete PHP script.
     
+###### phpbasic6
 // ⁉ Question 6: What is the correct and the most two common way to start and finish a PHP block of code ?
     
 // ℹ Explanation
 // The correct and most common way to start and finish a PHP block of code is to use <? php to start the block and ?> to end it.This is the recommended syntax and ensures compatibility with all PHP configurations.The alternative syntax <? and ?> can also be used, but it is less commonly used and not recommended for maximum portability.Additionally, for single - line blocks, it is acceptable to omit the closing ?> tag.
     
+###### phpbasic7
 // ⁉ Question 7: How can we display the output directly to the browser ?
     
 // ℹ Explanation
 // To display output directly to the browser in PHP, you can use the echo or print statement.These statements allow you to output text or variables directly to the web page.The output will be visible in the browser's HTML rendering. The console.log() function is used in JavaScript to display output in the browser's console, while the display() function does not exist in PHP.
     
+###### phpbasic8
 // ⁉ Question 8: Is multiple inheritance supported in PHP ?
     
 // ℹ Explanation
 // No, multiple inheritance is not supported in PHP.PHP only supports single inheritance, which means a class can inherit from only one parent class.However, PHP does support interfaces, which can be used to achieve similar functionality as multiple inheritance by implementing multiple interfaces in a class. Interfaces define a contract that a class must adhere to, allowing for code reusability and achieving a form of multiple inheritance through interface implementation.
 
+###### phpbasic9
 // ⁉ Question 9: What is the meaning of a final class and a final method ?
     
 // ℹ Explanation
 // In PHP, a final class is a class that cannot be inherited or extended by other classes.It is declared using the final keyword.Final classes are used when you want to prevent further extension or inheritance of a class. A final method, on the other hand, is a method within a class that cannot be overridden by any subclass.It is also declared using the final keyword.Final methods are used when you want to enforce that a specific method should not be overridden in any subclass.
     
+###### phpbasic10
 // ⁉ Question 10: How is the comparison of objects done in PHP ?
     
 // ℹ Explanation
