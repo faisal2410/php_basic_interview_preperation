@@ -693,254 +693,266 @@ Basic PHP interview questions with an explanation
     
 // ℹ Explanation
 // When passing values through a form or a URL, the GET method is used. The GET method appends the data to the URL as query parameters, which can be seen in the address bar of the browser. This method is suitable for retrieving data or performing read operations. The POST method, on the other hand, sends data in the request body and is used for submitting data or performing write operations. It is important to use the appropriate method based on the intended operation to ensure data security and prevent unintended side effects.
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp12
 // ⁉ Question 12:
 // How are failures in execution handled with include() and require() functions ?
     
 // ℹ Explanation
 // The include() and require() functions are used to include and evaluate the content of another PHP file in the current script.If the specified file is not found, the include() function generates a warning and continues script execution.On the other hand, if the specified file is not found, the require() function generates a fatal error and stops script execution.The choice between include() and require() depends on the specific requirements of your script.If the included file is essential for the script to run correctly, require() is preferred to ensure that any missing files are detected as fatal errors and prevent the script from running with incomplete dependencies.
+ **[⬆ Back to Top](#table-of-contents)**
   ###### basicphp13  
 // ⁉ Question 13: What is the main difference between require() and require_once() ?
     
 // ℹ Explanation
 // The main difference between require() and require_once() functions is in how they include and execute a file. - The require() function includes a file and re-executes its content every time it is called. If the same file is included multiple times, it will be re-executed each time. - The require_once() function includes a file only once, regardless of how many times it is called. It ensures that the file is included and its content is executed only once, even if it is referenced multiple times in the code. This is useful when including files that define functions or classes to prevent redeclaration errors. By using require_once(), you can ensure that the included file is executed only once, avoiding potential conflicts or duplicate declarations.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp14
 // ⁉ Question 14: How can I display text with a PHP script ?
     
 // ℹ Explanation
 // To display text with a PHP script, you can use the echo statement.The echo statement is used to output text or variables to the browser or command line.It can be used with or without parentheses and is a convenient way to display information.For example, you can use echo "Hello, World!"; to display the text "Hello, World!" in your PHP script.
-
+**[⬆ Back to Top](#table-of-contents)**
   ###### basicphp15
 // ⁉ Question 15: How can we display information of a variable and readable by a human with PHP?
 
 // ℹ Explanation
 // To display information about a variable in a human-readable format with PHP, you can use the print_r() function. The print_r() function is used to print the contents of an array or an object in a human-readable format. It can be useful for debugging or displaying complex data structures. For example, you can use print_r($array); to display the contents of an array. Another option is to use the var_dump() function, which provides more detailed information about a variable, including its type and size.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp16
 // ⁉ Question 16: How is it possible to set an infinite execution time for a PHP script ?
     
 // ℹ Explanation
 // To set an infinite execution time for a PHP script, you can use the set_time_limit(0) function at the beginning of the PHP script.This function sets the maximum execution time for the script to 0, effectively removing any time limit.Additionally, you can also modify the max_execution_time directive in the php.ini file and set it to 0. It's important to note that setting an infinite execution time may have implications on server resources and may not be recommended for all scripts. It's advisable to use this with caution and only when necessary.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp17
 
 // ⁉ Question 17: What does the PHP error 'Parse error in PHP – unexpected T_variable at line x' mean ?
     
 // ℹ Explanation
 // The PHP error message "Parse error: unexpected T_variable at line x" indicates a syntax error in the PHP code.It occurs when the PHP parser encounters an unexpected variable at the specified line number(x).This error typically occurs when there is a mistake in the code, such as a missing semicolon, mismatched parentheses, or incorrect use of operators.To resolve this error, you need to review the code at the specified line and check for any syntax errors or mistakes in variable usage.It's important to carefully review the code and ensure proper syntax to avoid parse errors.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp18
 // ⁉ Question 18:
 // What is the static variable in a function useful for?
     
 // ℹ Explanation
 // A static variable in a function is useful for preserving the value of a variable between multiple function calls. Unlike regular local variables, which are re-initialized each time the function is called, static variables retain their value across function calls. This allows you to maintain state or count the number of times a function has been called. For example, you can use a static variable to keep track of the number of times a function has been executed or to cache a value that is expensive to compute. The static variable is declared using the static keyword within the function. It's important to note that static variables have function scope, so they are only accessible within the function where they are defined. They are not visible or accessible outside the function.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp19
 // ⁉ Question 19: How can we define a variable accessible in functions of a PHP script ?
     
 // ℹ Explanation
 // To define a variable that is accessible in functions of a PHP script, you can declare it as a global variable using the global keyword.By using the global keyword within each function, you can make the variable accessible and modify its value.For example, you can define a global variable $count and access it in multiple functions by using the global $count; statement within each function.However, using global variables is generally discouraged as it can make code harder to maintain and lead to potential issues with variable conflicts and unintended side effects.Instead of relying on global variables, it's often recommended to use function arguments and return values to pass data between functions. Additionally, you can use object-oriented principles and create classes with properties and methods to encapsulate data and behavior.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp20
 // ⁉ Question 20: How is it possible to return a value from a function?
 
 // ℹ Explanation
 // To return a value from a function in PHP, you can use the return statement.The return statement is followed by the value you want to return.When the return statement is encountered, the function execution is terminated, and the specified value is passed back to the calling code.For example, you can define a function calculateSum($a, $b) that calculates the sum of two numbers and returns the result using return $a + $b;. The calling code can then capture the returned value and use it as needed.It's important to note that a function can only return a single value. If you need to return multiple values, you can use an array, object, or other data structures to encapsulate the values and return them together.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp21
 // ⁉ Question 21: How is a constant defined in a PHP script ?
     
 // ℹ Explanation
 // A constant is defined in a PHP script using the define() function. The define() function takes two arguments: the constant name (a string) and its value. For example, you can define a constant named MY_CONSTANT with a value of 123 using the following syntax: define('MY_CONSTANT', 123);. Once defined, constants cannot be changed or redefined during the execution of the script. They are typically used to represent values that remain constant throughout the script execution, such as configuration settings or mathematical constants. Constants are case-sensitive by default, but you can make them case-insensitive by passing true as the third argument to the define() function. It's important to note that constants do not require a $ symbol like variables do.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp22
 // ⁉ Question 22: How can you pass a variable by reference ?
     
 // ℹ Explanation
 // You can pass a variable by reference in PHP by using the & symbol before the variable name in both the function declaration and the function call. This allows changes made to the parameter inside the function to reflect in the original variable outside the function. For example, you can define a function modifyValue(&$var) that takes a variable by reference and modifies its value.To pass a variable by reference, you can call the function as modifyValue(& $myVar).It's important to note that passing variables by reference should be used with caution, as it can lead to unexpected side effects and make the code harder to maintain. It's recommended to use references sparingly and only when necessary.
-
+**[⬆ Back to Top](#table-of-contents)**
    ###### basicphp23
 // ⁉ Question 23: Will a comparison of an integer and a string "" work in PHP ?
     
 // ℹ Explanation
 // Yes, a comparison of an integer and a string "" will work in PHP.In PHP, when comparing an integer and a string, PHP will automatically convert the string to a numeric value.An empty string "" will be converted to 0 during the comparison.This behavior is known as type juggling or type coercion in PHP.It's important to note that when comparing values of different types in PHP, the comparison rules can be complex due to the type juggling mechanism. It's recommended to use strict type comparison (using === or !==) to ensure both value and type equality.
-    
+**[⬆ Back to Top](#table-of-contents)**    
 ###### basicphp24
 // ⁉ Question 24: How is it possible to cast types in PHP ?
     
 // ℹ Explanation
 // In PHP, types can be cast using explicit typecasting operators.For example, to cast a value to an integer, you can use (int) or intval(), to cast to a float, you can use(float) or floatval(), to cast to a string, you can use(string) or strval(), and so on.These typecasting operators allow you to explicitly convert a value from one type to another.For example, (int)$var will cast the value of $var to an integer.It's important to note that typecasting may result in data loss or unexpected behavior if the value cannot be properly converted to the desired type. Therefore, it's recommended to handle typecasting with caution and ensure the appropriate validation and error handling are in place.
-    
+**[⬆ Back to Top](#table-of-contents)**    
 ###### basicphp25
 // ⁉ Question 25: When is a conditional statement ended with endif ?
     
 // ℹ Explanation
 // In PHP, a conditional statement is ended with endif when using the alternative syntax for control structures.The alternative syntax provides an alternative way to write control structures such as if, else, while, for, and foreach.Instead of using curly braces { } to enclose the block of code, the alternative syntax uses endif, endwhile, endfor, endforeach, etc.For example, instead of writing if (condition) { code }, you can write if (condition): code endif;. This alternative syntax can be useful for improving readability and reducing visual clutter, especially when working with complex or nested control structures.It's important to note that the alternative syntax is optional, and the regular syntax with curly braces {} is also widely used in PHP.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp26
 // ⁉ Question 26: How is the ternary conditional operator used in PHP ?
     
 // ℹ Explanation
 // The ternary conditional operator in PHP is used as a shorthand for an if-else statement.It allows you to conditionally choose between two values based on a condition.The syntax is condition ? value_if_true : value_if_false;. If the condition evaluates to true, the value before the: is returned; otherwise, the value after the: is returned.For example, $message = $isLogged ? "Welcome back!" : "Please log in"; assigns the value "Welcome back!" to $message if $isLogged is true, and "Please log in" otherwise.The ternary conditional operator can be used to simplify code and make it more concise, especially when assigning values based on simple conditions.It's important to use the ternary conditional operator judiciously to maintain code readability and avoid excessive nesting or complex conditions.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp27
 // ⁉ Question 27: What is the function func_num_args() used for?
     
 // ℹ Explanation
 // The function func_num_args() is used to retrieve the number of arguments passed to a function in PHP.It is often used in conjunction with other functions like func_get_arg() and func_get_args() to create flexible and dynamic functions that can handle a variable number of arguments.For example, you can use func_num_args() inside a function to determine how many arguments were passed to it and then iterate over the arguments using a loop with func_get_arg() to process each argument individually.The func_num_args() function provides a convenient way to create generic functions that can adapt to different input parameters.It's important to note that func_num_args() can only be used within a user-defined function and not outside of it.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp28
 // ⁉ Question 28: What does $GLOBALS mean ?
     
 // ℹ Explanation
 // In PHP, $GLOBALS is an array that holds references to all variables that are currently defined in the global scope.It allows access to global variables from anywhere in the PHP script.Learn more: http://php.net/manual/en/reserved.variables.globals.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp29
 // ⁉ Question 29: What does $_SERVER mean?
 
 // ℹ Explanation
 // In PHP, $_SERVER is an array that contains server information, such as headers, paths, and script locations.It is a superglobal variable accessible from anywhere in the PHP script.Learn more: http://php.net/manual/en/reserved.variables.server.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp30
 // ⁉ Question 30: What does $_FILES mean ?
     
 // ℹ Explanation
 // In PHP, $_FILES is a superglobal array that holds information about uploaded files, such as file names, temporary locations, and file sizes.It is used when handling file uploads.Learn more: http://php.net/manual/en/reserved.variables.files.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp31
 // ⁉ Question 31: What is the difference between $_FILES['userfile']['name'] and $_FILES['userfile']['tmp_name'] ?
     
 // ℹ Explanation
 // $_FILES['userfile']['name'] represents the original filename of the uploaded file, while $_FILES['userfile']['tmp_name'] represents the temporary location where the uploaded file is stored on the server.
-    
+ **[⬆ Back to Top](#table-of-contents)**   
 ###### basicphp32
 // ⁉ Question 32: How can we get the error when there is a problem uploading a file ?
     
 // ℹ Explanation
 // The $_FILES['error'] element in the $_FILES array contains the error code associated with the file upload. It helps identify any issues that occurred during the file upload process.
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp33
 // ⁉ Question 33: How can we change the maximum size of the files to be uploaded ?
     
 // ℹ Explanation
 // The maximum size of files to be uploaded can be changed by modifying the upload_max_filesize directive in the php.ini configuration file or by using the ini_set() function in PHP code.
-    
+**[⬆ Back to Top](#table-of-contents)**    
 ###### basicphp34
 // ⁉ Question 34:
 // What does $_ENV mean ?
     
 // ℹ Explanation
 // In PHP, $_ENV is an array that contains the values of environment variables passed to the script.It provides access to environment - specific information.Learn more: http://php.net/manual/en/reserved.variables.environment.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp35
 // ⁉ Question 35: What does $_COOKIE mean ?
     
 // ℹ Explanation
 // In PHP, $_COOKIE is an array that holds cookies sent by the client to the server.It provides access to cookie values.Learn more: http://php.net/manual/en/reserved.variables.cookies.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp36
 // ⁉ Question 36: What does the scope of variables mean ?
     
 // ℹ Explanation
 // The scope of variables refers to the visibility or accessibility of variables within different parts of the code. It determines where and for how long a variable can be accessed. Learn more: http://php.net/manual/en/language.variables.scope.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp37
 // ⁉ Question 37: What is the difference between the 'BITWISE AND' operator and the 'LOGICAL AND' operator ?
     
 //     ℹ Explanation
     
 // The 'BITWISE AND' operator(&) performs bitwise comparison of individual bits in two operands, while the 'LOGICAL AND' operator(&&) performs logical comparison of two Boolean expressions.Learn more: http://php.net/manual/en/language.operators.bitwise.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp38
 // ⁉ Question 38: What are the two main string operators ?
     
 // ℹ Explanation
 // The two main string operators in PHP are concatenation(using the.operator) and interpolation(using variables within double - quoted strings).They allow manipulation and combination of string values.Learn more: http://php.net/manual/en/language.operators.string.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp39
 // ⁉ Question 39: What does the array operator '===' mean ?
     
 // ℹ Explanation
 // The '===' operator in PHP is the identity comparison operator. It compares both the value and the type of the operands. It returns true if the operands are identical, and false otherwise. Learn more: http://php.net/manual/en/language.operators.comparison.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp40
 // ⁉ Question 40: What is the difference between $a != $b and $a !== $b ?
     
 // ℹ Explanation
 // The $a != $b expression checks for value equality, while the $a !== $b expression checks for both value and type equality. The strict comparison (!==) ensures that the operands are of the same type. Learn more: http://php.net/manual/en/language.operators.comparison.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp41
 // ⁉ Question 41: What is the goto statement useful for?
     
 // ℹ Explanation
 // The goto statement in PHP allows you to jump to a specified label within your code. It is generally discouraged as it can lead to less readable and maintainable code. However, in certain scenarios, it can be useful for flow control. Learn more: http://php.net/manual/en/control-structures.goto.php
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp42
 // ⁉ Question 42: How is it possible to parse a configuration file ?
     
 // ℹ Explanation
 // Parsing a configuration file in PHP can be done using various methods such as built-in functions(parse_ini_file, json_decode), regular expressions, or third - party libraries like YAML or XML parsers.The choice depends on the format and complexity of the configuration file.
-    
+ **[⬆ Back to Top](#table-of-contents)**   
 ###### basicphp43
 // ⁉ Question 43: How can we check if the value of a given variable is a number ?
     
 // ℹ Explanation
 // To check if the value of a given variable is a number in PHP, you can use the is_numeric() function. The is_numeric() function returns true if the value is numeric or a numeric string, and false otherwise.It can be used to validate user input or check the type of a variable.For example, you can use is_numeric($var) to check if the value of $var is a number.It's important to note that is_numeric() considers both integer and float values as numbers. If you specifically want to check if the value is an integer, you can use the is_int() function. Similarly, if you want to check if the value is a float, you can use the is_float() function.
 
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp44
 // ⁉ Question 44: How can we check if the value of a given variable is alphanumeric ?
     
 // ℹ Explanation
 // To check if the value of a given variable is alphanumeric in PHP, you can use the ctype_alnum() function. The ctype_alnum() function returns true if all characters in the string are alphanumeric(letters or digits), and false otherwise.It can be used to validate user input or check if a variable contains only alphanumeric characters.For example, you can use ctype_alnum($var) to check if the value of $var is alphanumeric.It's important to note that the ctype_alnum() function only works with string values. If you need to check alphanumericity for numeric values, you can use a combination of is_string() and is_numeric() functions.
 
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp45
 // ⁉ Question 45: How do I check if a given variable is empty ?
     
 // ℹ Explanation
 // To check if a given variable is empty in PHP, you can use the empty() function. The empty() function returns true if the variable is considered empty, and false otherwise. It can be used to check if a variable is empty, which means it is either null, an empty string '', 0, '0', false, an empty array [], or a variable that has been unset. For example, you can use empty($var) to check if $var is empty. It's important to note that the empty() function may have different behavior based on PHP version and configuration. In PHP 5, it also considered variables with a value of '0' as empty, but in PHP 7, this behavior changed, and '0' is no longer considered empty. Therefore, it's recommended to use empty() with caution and be aware of its specific behavior in your PHP environment.
 
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp46
 // ⁉ Question 46: What does the unset() function mean?
 
 // ℹ Explanation
 // The unset() function in PHP is used to destroy a specified variable or array element, freeing up memory.When you use unset() with a variable, it removes the variable from the current symbol table.If you use it with an array element, it removes that specific element from the array.The memory allocated to the variable or array element is released, and the variable or element is no longer accessible.It's important to note that unset() does not free the memory occupied by the variable or array itself, only the memory occupied by the specific variable or element. It's commonly used when you no longer need a variable or want to remove an element from an array to optimize memory usage.
     
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp47
 // ⁉ Question 47: How is it possible to remove escape characters from a string ?
     
 // ℹ Explanation
 // To remove escape characters from a string in PHP, you can use the stripslashes() function. The stripslashes() function removes backslashes(\) that are used to escape characters in a string.It's commonly used when working with strings that have been escaped, such as strings retrieved from databases or when dealing with data submitted via forms. For example, you can use stripslashes($string) to remove escape characters from $string. It's important to note that stripslashes() only removes backslashes, and it doesn't unescape any other characters that may have been escaped using other escape sequences. If you need to unescape other characters, you may need to use additional functions or techniques depending on the specific requirements of your application.
 
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp48
 // ⁉ Question 48: How can we determine whether a variable is set ?
     
 // ℹ Explanation
 // In PHP, the isset() function is used to determine whether a variable is set and not null. It returns true if the variable is set and has a non-null value, and false otherwise. Learn more: http://php.net/manual/en/function.isset.php
 
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp49
 // ⁉ Question 49: What is the difference between the functions strstr() and stristr()?
 // ℹ Explanation
 // The strstr() function in PHP returns the portion of a string starting from the first occurrence of a substring, while stristr() is case -insensitive in its search.They differ in case -sensitivity.Learn more: http://php.net/manual/en/function.strstr.php
 
-
+**[⬆ Back to Top](#table-of-contents)**
 ###### basicphp50
 // ⁉ Question 50: What is the difference between for and foreach ?
     
 // ℹ Explanation
 // In PHP, for is used for iterative loops with a specified number of iterations, while foreach is used for iterating over arrays or other iterable objects without needing to explicitly define the loop counter or the iteration condition. Learn more: http://php.net/manual/en/control-structures.for.php
 
+**[⬆ Back to Top](#table-of-contents)**
+###### basicphp51
 // ⁉ Question 51:
 // What is the difference between ereg_replace() and eregi_replace()?
 // ℹ Explanation
 // The ereg_replace() function in PHP performs a case -sensitive regular expression search and replace, while eregi_replace() is case -insensitive.They differ in case -sensitivity and support for regular expressions.Learn more: http://php.net/manual/en/function.ereg-replace.php
-    
+
+  **[⬆ Back to Top](#table-of-contents)**
+###### basicphp52
 // ⁉ Question 52: What are the three classes of errors that can occur in PHP?
 // ℹ Explanation
 // In PHP, the three classes of errors are notices (non-critical issues that should be addressed), warnings (potential issues that might cause problems), and errors (critical issues that prevent script execution). Learn more: http://php.net/manual/en/errorfunc.constants.php
-
+**[⬆ Back to Top](#table-of-contents)**
+###### basicphp53
 // ⁉ Question 53: What is the difference between characters \ and \x ?
     
 // ℹ Explanation
