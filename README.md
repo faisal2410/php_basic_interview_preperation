@@ -6549,6 +6549,6 @@ Basic PHP interview questions with an explanation
 // Explanation
 // The array_combine() function in PHP is used to create an array by combining the values of one array as keys and another array as values. It takes two arrays as parameters and returns the combined array. This function is useful when you need to create an associative array from corresponding keys and values. Learn more: http://php.net/manual/en/function.array-combine.php
 
-
+**[⬆ Back to Top](#table-of-contents)**
 
   
