@@ -506,6 +506,56 @@ Basic PHP interview questions with an explanation
   | basic php  | [The filter_var_array() function allows you to filter multiple inputs at once in PHP.](#basicphp498) |
   | basic php  | [Which of the following are common uses of the filter_input_array() and filter_var_array() functions in PHP?](#basicphp499) |
   | basic php  | [What types of data can be filtered using the filter_input_array() and filter_var_array() functions in PHP?](#basicphp500) |
+  | basic php  | [What are some common practices in PHP when dealing with multiple data filtering and validation?](#basicphp501) |
+  | basic php  | [You are writing a PHP script and you need to filter multiple inputs. How would you do this?](#basicphp502) |
+  | basic php  | [You have a PHP script and you need to get the list of all supported filters. How would you do this?](#basicphp503) |
+  | basic php  | [You need to filter and validate multiple inputs in your PHP script. How would you do this?](#basicphp504) |
+  | basic php  | [How can you define a callback function in PHP?](#basicphp505) |
+  | basic php  | [How can you call a user-defined function in PHP using a string variable?](#basicphp506) |
+  | basic php  | [Which PHP function can be used to check if a function has been defined?](#basicphp507) |
+  | basic php  | [In PHP, a callback function is a function that is passed as an argument to ______.](#basicphp508) |
+  | basic php  | [You can call a user-defined function in PHP using a string variable by using the variable as the function name like ______.](#basicphp509) |
+  | basic php  | [The function_exists() function in PHP is used to check if a ______ has been defined.](#basicphp510) |
+  | basic php  | [In PHP, a callback function is a function that is passed as an argument to another function.](#basicphp511) |
+  | basic php  | [You can call a user-defined function in PHP using a string variable that contains the function's name.](#basicphp512) |
+  | basic php  | [The function_exists() function in PHP is used to check if a function has been defined.](#basicphp513) |
+  | basic php  | [Which of the following are ways to use callback functions in PHP?](#basicphp514) |
+  | basic php  | [What are some common uses of the function_exists() function in PHP?](#basicphp515) |
+  | basic php  | [What are some common practices in PHP when dealing with callback functions?](#basicphp516) |
+  | basic php  | [You are writing a PHP script and you need to use a callback function. How would you do this?](#basicphp517) |
+  | basic php  | [You have a PHP script and you need to call a user-defined function using a string variable. How would you do this?](#basicphp518) |
+  | basic php  | [You need to check if a function has been defined in your PHP script. How would you do this?](#basicphp519) |
+  | basic php  | [How can you encode a PHP array into a JSON object?](#basicphp520) |
+  | basic php  | [How can you decode a JSON object into a PHP array?](#basicphp521) |
+  | basic php  | [What is the purpose of the json_last_error_msg() function in PHP?](#basicphp522) |
+  | basic php  | [In PHP, you can encode an array into a JSON object using the json_encode() ______.](#basicphp523) |
+  | basic php  | [You can decode a JSON object into a PHP array using the json_decode() ______.](#basicphp524) |
+  | basic php  | [The json_last_error_msg() function in PHP is used to return the error string of the ______ JSON operation.](#basicphp525) |
+  | basic php  | [The json_encode() function is used to encode a PHP array into a JSON object.](#basicphp526) |
+  | basic php  | [The json_decode() function is used to decode a JSON object into a PHP array.](#basicphp527) |
+  | basic php  | [The json_last_error_msg() function in PHP is used to return the error string of the last JSON operation.](#basicphp528) |
+  | basic php  | [Which of the following are common uses of the json_encode() and json_decode() functions in PHP?](#basicphp529) |
+  | basic php  | [What types of data can be encoded into JSON using the json_encode() function in PHP?](#basicphp530) |
+  | basic php  | [What are some common practices in PHP when dealing with JSON data?](#basicphp531) |
+  | basic php  | [You are writing a PHP script and you need to encode an array into a JSON object. How would you do this?](#basicphp532) |
+  | basic php  | [You have a PHP script and you need to decode a JSON object into a PHP array. How would you do this?](#basicphp533) |
+  | basic php  | [You need to get the error message of the last JSON operation in your PHP script. How would you do this?](#basicphp534) |
+  | basic php  | [What does OOP stand for in the context of PHP?](#basicphp535) |
+  | basic php  | [What is the main benefit of using OOP in PHP?](#basicphp536) |
+  | basic php  | [In PHP, what is the term for the blueprint from which individual objects are created?](#basicphp537) |
+  | basic php  | [OOP stands for Object-Oriented ______ in PHP.](#basicphp538) |
+  | basic php  | [The main benefit of using OOP in PHP is that it helps in organizing the code in a ______ and modular way.](#basicphp539) |
+  | basic php  | [In PHP, a class is the ______ from which individual objects are created.](#basicphp540) |
+  | basic php  | [OOP in PHP stands for Object-Oriented ______.](#basicphp541) |
+  | basic php  | [One of the main benefits of using OOP in PHP is that it helps in organizing the code in a ______ and modular way.](#basicphp542) |
+  | basic php  | [In PHP, a class is the ______ from which individual objects are created.](#basicphp543) |
+  | basic php  | [What are some of the key concepts in Object-Oriented Programming in PHP?](#basicphp544) |
+  | basic php  | [What are some common benefits of using Object-Oriented Programming in PHP?](#basicphp545) |
+  | basic php  | [What are some common practices in PHP when using Object-Oriented Programming?](#basicphp546) |
+  | basic php  | [You are writing a PHP script and you decide to use Object-Oriented Programming. How would you define a class?](#basicphp547) |
+  | basic php  | [You have a PHP script and you need to create an object from a class. How would you do this?](#basicphp548) |
+  | basic php  | [You need to use inheritance in your PHP script. How would you do this?](#basicphp549) |
+  | basic php  | [How do you define a class in PHP?](#basicphp550) |
   
   
   
