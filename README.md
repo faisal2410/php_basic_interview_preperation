@@ -969,6 +969,7 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 42: How is it possible to parse a configuration file ?
     
 >> ℹ Explanation
+
 >> Parsing a configuration file in PHP can be done using various methods such as built-in functions(parse_ini_file, json_decode), regular expressions, or third - party libraries like YAML or XML parsers.The choice depends on the format and complexity of the configuration file.
 
  **[⬆ Back to Top](#table-of-contents)**   
@@ -977,6 +978,7 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 43: How can we check if the value of a given variable is a number ?
     
 >> ℹ Explanation
+
 >> To check if the value of a given variable is a number in PHP, you can use the is_numeric() function. The is_numeric() function returns true if the value is numeric or a numeric string, and false otherwise.It can be used to validate user input or check the type of a variable.For example, you can use is_numeric($var) to check if the value of $var is a number.It's important to note that is_numeric() considers both integer and float values as numbers. If you specifically want to check if the value is an integer, you can use the is_int() function. Similarly, if you want to check if the value is a float, you can use the is_float() function.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -985,6 +987,7 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 44: How can we check if the value of a given variable is alphanumeric ?
     
 >> ℹ Explanation
+
 >> To check if the value of a given variable is alphanumeric in PHP, you can use the ctype_alnum() function. The ctype_alnum() function returns true if all characters in the string are alphanumeric(letters or digits), and false otherwise.It can be used to validate user input or check if a variable contains only alphanumeric characters.For example, you can use ctype_alnum($var) to check if the value of $var is alphanumeric.It's important to note that the ctype_alnum() function only works with string values. If you need to check alphanumericity for numeric values, you can use a combination of is_string() and is_numeric() functions.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -993,6 +996,7 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 45: How do I check if a given variable is empty ?
     
 >> ℹ Explanation
+
 >> To check if a given variable is empty in PHP, you can use the empty() function. The empty() function returns true if the variable is considered empty, and false otherwise. It can be used to check if a variable is empty, which means it is either null, an empty string '', 0, '0', false, an empty array [], or a variable that has been unset. For example, you can use empty($var) to check if $var is empty. It's important to note that the empty() function may have different behavior based on PHP version and configuration. In PHP 5, it also considered variables with a value of '0' as empty, but in PHP 7, this behavior changed, and '0' is no longer considered empty. Therefore, it's recommended to use empty() with caution and be aware of its specific behavior in your PHP environment.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1001,6 +1005,7 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 46: What does the unset() function mean?
 
 >> ℹ Explanation
+
 >> The unset() function in PHP is used to destroy a specified variable or array element, freeing up memory.When you use unset() with a variable, it removes the variable from the current symbol table.If you use it with an array element, it removes that specific element from the array.The memory allocated to the variable or array element is released, and the variable or element is no longer accessible.It's important to note that unset() does not free the memory occupied by the variable or array itself, only the memory occupied by the specific variable or element. It's commonly used when you no longer need a variable or want to remove an element from an array to optimize memory usage.
     
 **[⬆ Back to Top](#table-of-contents)**
@@ -1009,6 +1014,8 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 47: How is it possible to remove escape characters from a string ?
     
 >> ℹ Explanation
+
+
 >> To remove escape characters from a string in PHP, you can use the stripslashes() function. The stripslashes() function removes backslashes(\) that are used to escape characters in a string.It's commonly used when working with strings that have been escaped, such as strings retrieved from databases or when dealing with data submitted via forms. For example, you can use stripslashes($string) to remove escape characters from $string. It's important to note that stripslashes() only removes backslashes, and it doesn't unescape any other characters that may have been escaped using other escape sequences. If you need to unescape other characters, you may need to use additional functions or techniques depending on the specific requirements of your application.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1017,6 +1024,8 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 48: How can we determine whether a variable is set ?
     
 >> ℹ Explanation
+
+
 >> In PHP, the isset() function is used to determine whether a variable is set and not null. It returns true if the variable is set and has a non-null value, and false otherwise. Learn more: http://php.net/manual/en/function.isset.php
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1024,6 +1033,8 @@ Basic PHP interview questions with an explanation
 ###### basicphp49
 >> ⁉ Question 49: What is the difference between the functions strstr() and stristr()?
 >> ℹ Explanation
+
+
 >> The strstr() function in PHP returns the portion of a string starting from the first occurrence of a substring, while stristr() is case -insensitive in its search.They differ in case -sensitivity.Learn more: http://php.net/manual/en/function.strstr.php
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1032,6 +1043,8 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 50: What is the difference between for and foreach ?
     
 >> ℹ Explanation
+
+
 >> In PHP, for is used for iterative loops with a specified number of iterations, while foreach is used for iterating over arrays or other iterable objects without needing to explicitly define the loop counter or the iteration condition. Learn more: http://php.net/manual/en/control-structures.for.php
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1040,6 +1053,8 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 51:
 >> What is the difference between ereg_replace() and eregi_replace()?
 >> ℹ Explanation
+
+
 >> The ereg_replace() function in PHP performs a case -sensitive regular expression search and replace, while eregi_replace() is case -insensitive.They differ in case -sensitivity and support for regular expressions.Learn more: http://php.net/manual/en/function.ereg-replace.php
 
   **[⬆ Back to Top](#table-of-contents)**
@@ -1047,6 +1062,8 @@ Basic PHP interview questions with an explanation
 ###### basicphp52
 >> ⁉ Question 52: What are the three classes of errors that can occur in PHP?
 >> ℹ Explanation
+
+
 >> In PHP, the three classes of errors are notices (non-critical issues that should be addressed), warnings (potential issues that might cause problems), and errors (critical issues that prevent script execution). Learn more: http://php.net/manual/en/errorfunc.constants.php
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1055,6 +1072,8 @@ Basic PHP interview questions with an explanation
 >> ⁉ Question 53: What is the difference between characters \ and \x ?
     
 >> ℹ Explanation
+
+
 >> The character \ is an escape character used to indicate special characters in strings, while \x is used for hexadecimal representation in strings. They have different purposes in string manipulation. Learn more: http://php.net/manual/en/language.types.string.php
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1062,9 +1081,12 @@ Basic PHP interview questions with an explanation
 ###### basicphp54
 >> ⁉ Question 54: How can we pass a variable through navigation between pages?
 >> ℹ Explanation
->> In PHP, one way to pass a variable through navigation between pages is by using query strings.Query strings allow you to append data to the URL, which can then be accessed by the target page using the $_GET superglobal array.Learn more: http://php.net/manual/en/reserved.variables.get.php
 
-    **[⬆ Back to Top](#table-of-contents)**
+
+>> In PHP, one way to pass a variable through navigation between pages is by using query strings.Query strings allow you to append data to the URL, which can then be accessed by the target page using the $_GET superglobal array.Learn more: http://php.net/manual/en/reserved.variables.get.php
+>> 
+
+   **[⬆ Back to Top](#table-of-contents)**
 
 ###### basicphp55
 >> ⁉ Question 55: Is it possible to extend the execution time of a PHP script ?
